@@ -8,7 +8,7 @@ CFLAGS = -Wall -Wextra -Werror
 LIBFTDIR = ./libft
 
 # Source files
-SRCS = 	main.c
+SRCS = 	main.c utilsmain.c error.c
 OBJS = $(SRCS:%.c=%.o)
 
 # Executable name
